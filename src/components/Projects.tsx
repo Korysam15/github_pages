@@ -2,6 +2,21 @@ import { motion } from "framer-motion";
 import { Github, ExternalLink, Star, GitFork } from "lucide-react";
 const projects = [
   {
+    id: 0,
+    title: "N8N Template that integrates with Mealie",
+    description:
+      "This n8n template demonstrates how to automatically generate a full week of dinner meal plans in your self hosted Mealie instance and create a corresponding shopping list based on those planned meals.",
+    tags: ["JSON", "n8n"],
+    stats: {
+      stars: 0,
+      forks: 0,
+      lang: "JSON",
+    },
+    links: {
+      demo: "https://n8n.io/workflows/13815-generate-weekly-dinner-meal-plans-and-shopping-lists-using-mealie/",
+    },
+  },
+  {
     id: 1,
     title: "Affirmations Scriptable Widget",
     description:
